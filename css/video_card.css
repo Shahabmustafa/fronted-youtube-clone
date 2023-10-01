@@ -1,0 +1,52 @@
+#home{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+}
+
+.viseo_card_colume{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.video_card_row{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.video_card{
+    height: 43vh;
+    width: 30.5%;
+}
+
+.video_content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.video_card img{
+    border-radius: 5px;
+}
+
+.video_card:hover{
+    border-radius: 0px;
+    background-color: #f9f9f9;
+}
+
+.video_text{
+    padding-left: 15px;
+}
+
+.video_text{
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}

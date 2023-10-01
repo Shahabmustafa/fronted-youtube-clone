@@ -1,0 +1,91 @@
+.sider_bar{
+    height: 100vh;
+    width: 200px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+.sider_bar .card_one{
+    height: 130px;
+}
+
+.sider_bar .card_one li{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.sider_bar .card_one li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.sider_bar .card_one li:hover{
+    padding: 10px 10px 10px 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+
+}
+
+.sider_bar .card_one{
+    border-bottom: 0.5px solid rgb(187, 187, 187);
+}
+
+.sider_bar .card_two{
+    height: 200px;
+    margin: 10px;
+}
+
+.sider_bar .card_two li{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.sider_bar .card_two li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.sider_bar .card_two li:hover{
+    padding: 10px 10px 10px 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.sider_bar .card_two{
+    border-bottom: 0.5px solid rgb(187, 187, 187);
+}
+
+.sider_bar .card_three{
+    height: 130px;
+}
+
+.sider_bar .card_three ul{
+    list-style: none;
+}
+.sider_bar .card_three p{
+    margin: 10px 10px 10px 10px;
+}
+
+.sider_bar .card_three li{
+    padding: 8px 10px 8px 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.sider_bar .card_three li:hover{
+    padding: 8px 10px 8px 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.sider_bar .card_three li a{
+    color: #000;
+    text-decoration: none;
+}
